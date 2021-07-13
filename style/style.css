@@ -1,23 +1,22 @@
+/* font styles */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+/* top banner degins */
 .TopBanner{
     background-color: #2D25A0;
     width: 1440px;
     height: 677px;
     display: flex;
+    margin-bottom: 70px;
 }
 .leftSide{
     width: 50%;
-    /* border: 20px solid black; */
-
 }
 .rightSide{
     width: 50%;
-    /* border: 20px solid black; */
 }
 .rightSide img{
     margin-top: 135px;
@@ -49,4 +48,30 @@ h1{
     color: #FFFFFF;
     width: 24px;
     height: 24px;
+}
+/* player card */
+.container{
+    margin-left: 180px;
+    margin-right: 210px;
+}
+.player{
+    width: 330px;
+    height: 474px;
+    border: 15px solid #FFFFFF;
+}
+h3{
+    font-weight: 300px;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+}
+.plyFont{
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    font-weight: 300px;
+}
+.player img{
+    width: 330px;
+    height: 256px;
 }
