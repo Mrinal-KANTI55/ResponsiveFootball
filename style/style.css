@@ -3,6 +3,7 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: gray;
 }
 /* top banner degins */
 .TopBanner{
@@ -44,6 +45,9 @@ h1{
     padding: 10px 24px;
     background-color: #E02C6D;
 }
+a:hover{
+    background-color: #1f0103;
+}
 .fa-arrow-right{
     color: #FFFFFF;
     width: 24px;
@@ -53,11 +57,16 @@ h1{
 .container{
     margin-left: 180px;
     margin-right: 210px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    column-gap: 30px;
 }
 .player{
     width: 330px;
     height: 474px;
     border: 15px solid #FFFFFF;
+    background-color: #FFFFFF;
 }
 h3{
     font-weight: 300px;
