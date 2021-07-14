@@ -185,4 +185,10 @@ h1{
   @media only screen and (min-width: 688px) and
   (max-width: 992px){
 
+.container{
+    width: 100%;
+    margin-left: 300px;
+    margin-right: 300px;
+    grid-template-columns: repeat(2,1fr);
+}
   }
